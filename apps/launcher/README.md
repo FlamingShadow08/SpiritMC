@@ -1,7 +1,7 @@
-# Spirit Launcher
+# Tauri + React + Typescript
 
-The desktop launcher application for the Spirit ecosystem.
+This template should help get you started developing with Tauri, React and Typescript in Vite.
 
-This directory contains launcher-specific source code, assets, configuration, and build setup. Its implementation and tooling will be established during the initial project setup.
+## Recommended IDE Setup
 
-See the [repository README](../../README.md) for an overview of Spirit.
+- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)

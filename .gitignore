@@ -1,40 +1,50 @@
-# Node
-node_modules/
-.npm/
-.pnpm-store/
-dist/
-build/
-*.tsbuildinfo
+# Dependencies
+**/node_modules/
+**/.npm/
+**/.pnpm-store/
+
+# Build outputs
+**/dist/
+**/build/
+**/coverage/
+**/.vite/
+**/.turbo/
+
+# TypeScript
+**/*.tsbuildinfo
 
 # Rust
-/target/
 **/target/
 
-# Tauri
-src-tauri/target/
-
-# Environment and secrets
-.env
-.env.*
-!.env.example
-*.pem
-*.key
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
 
 # Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/pnpm-debug.log*
 
 # IDEs and editors
 .idea/
-.vscode/*
+.vs/
+.vscode/
 !.vscode/extensions.json
-!.vscode/settings.json
-!.vscode/launch.json
-!.vscode/tasks.json
 
 # Operating systems
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Raw Videos, Scrips, New episode Contents for Youtube
+/Youtube_Contents/
